@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<title>MINI PROJECT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+      background-image: url("f3.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.w3-button:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">THE FOSSILO MUSEUM</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i>ABOUT </a>
+      <a href="#explore" class="w3-bar-item w3-button"><i class="fa fa-th"></i>EXPLORE</a>
+      <a href="#TICKET BOOKING" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>TICKET BOOKING</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#explore" onclick="w3_close()" class="w3-bar-item w3-button">EXPLORE</a>
+  <a href="#TICKET BOOKING" onclick="w3_close()" class="w3-bar-item w3-button">TICKET BOOKING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">The Fossilo Museum</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">The Fossilo Museum</span><br>
+    <span class="w3-large">Stop wasting valuable time - visit and explore.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more !</a></p>
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container w3-black"style="padding:128px 16px" id="about">
+  <h3 class="w3-center" style="font-weight: 600;">ABOUT THE MUSEUM</h3>
+  <p class="w3-center w3-large" style="color: light-gray">Features of our Museum</p>
+<br><p style="padding: 100px; margin: auto; text-align: center;">Fossil bones are heavy,delicate,and scientifically valuable,so they are usually stored away to protect them from damage.Most of the prehistoric skeletons you see in museums are lightweight models built by attaching replicas of the real fossil bones to steel frames.The model skeletons show the bones in good condition,with no missing or broken parts.Clues found on the real fossil bones help scientists put together these models.If a new discovery is made about a prehistoric animal,the scientists may have to remark the models skeleton to match the new findings.Most dinosaur skeletons contains several hundred individual bones.<p><br>
+  <div class="w3-row-padding w3-center" style="margin-top:204px">
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We have Fossils Record.</h3>
+      <p>A fossil is any preserved remains, impression, or trace of any once-living thing from a past geological age. Examples include bones, shells, exoskeletons, stone imprints of animals or microbes, hair, petrified wood, oil, coal, and DNA remnants. The totality of fossils is known as the fossil record.</p>
+      <p><a href="#explore" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Collections</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="f4.jpg" alt="images" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this Museum</p>
+  <div class="w3-row-padding w3-black" style="margin-top:64px">
+    <div class="w3-col 20 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="jayanth.jpg" alt="jayanth" style="width:100%">
+        <div class="w3-container">
+          <h3>Jayanth Kande</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Mr.Jayanth Kande  has a 9 years of re-search history on different types of Fossils.He holds a Internationally recognised Certification on the Acient history.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col 20 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="pic.jpg" alt="shivaji" style="width:100%">
+        <div class="w3-container">
+          <h3>M.L.Krishna</h3>
+          <p class="w3-opacity">Investor & Co-Founder </p>
+          <p>Mr.Krishna holds a record of 12 years of expertise into the field of Investment.He is also the co-founder of Thefossilsmuseum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col 20 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Shivaji.jpg" alt="krishna" style="width:100%">
+        <div class="w3-container">
+          <h3>Jadhav shivaji</h3>
+          <p class="w3-opacity">Foresinc Scientist</p>
+          <p>Mr.Jadhav Shivaji is one of the best Scientist,with an re-search history of 10 years on types and age of Fossils.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">512558+</span>
+    <br>visitors
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Staff Members
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Types of Fossils Collection
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container w3-black" style="padding:128px 16px" id="explore">
+  <h3 class="w3-center">Few Types Of Fossils</h3>
+  <p class="w3-center w3-large">What we've found from the past</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="f1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Mold Fossils">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="castf.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cast Fossils">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="trace.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Trace Fossils">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="true.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="True Form Fossils">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="body.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Body Fossils">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="Pseudo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pseudo Fossils">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="d1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Impression Fossils">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="petf.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Petrified Fossils">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>We have very well trained and Expert Guides through them you could explore even more !</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-star w3-margin-right"></i>Popularity</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-black" style="padding:128px 16px" id="TICKET BOOKING">
+  <h3>TICKET BOOKING</h3>
+  <p class="w3-large">Book Tickets to re-vist "HISTORY".</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16"><b>1 </b>Member Allowed</li>
+        <li class="w3-padding-16"><b>2 </b>Hours Duration</li>
+        <li class="w3-padding-16"><b>No </b>Camera Allowed</li>
+        <li class="w3-padding-16"><b>No </b>Guid</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 5</h2>
+          <span class="w3-opacity">per Ticket</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Book Now</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Golden</li>
+        <li class="w3-padding-16"><b>2 </b>Members Allowed</li>
+        <li class="w3-padding-16"><b>4 </b>Hours Duration</li>
+        <li class="w3-padding-16"><b>1 Mini </b>Camera Allowed</li>
+        <li class="w3-padding-16"><b>1 </b>Guid</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 15</h2>
+          <span class="w3-opacity">per Ticket</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Book Now</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Platinum</li>
+        <li class="w3-padding-16"><b>5 </b>Members Allowed</li>
+        <li class="w3-padding-16"><b>6 </b>Hours Duration</li>
+        <li class="w3-padding-16"><b>1 dslr </b>Camera Allowed</li>
+        <li class="w3-padding-16"><b>Expert</b> Guide</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">per Ticket</sp an>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Book Now</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Hyderabad,India</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:040-2404506</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Thefossilsmuseum@gmail.com</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+</html>
